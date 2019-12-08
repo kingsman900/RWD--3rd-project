@@ -1,0 +1,359 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+body{
+     font-family: 'Cookie', cursive;
+}
+
+/* Header part start */
+
+header {
+    width: 100%;
+    float: left;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    width: 130px;
+    display: block;
+}
+
+.manu {
+    width: 55%;
+    float: left;
+}
+
+nev ul {
+    list-style: none;
+}
+
+nev ul li {
+    display: inline-block;
+    margin: 60px 20px;
+    text-transform: uppercase
+}
+
+nev ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.social {
+    width: 30%;
+    float: left;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 60px 10px;
+    font-size: 25px;
+}
+
+.social ul li a {
+    text-decoration: none;
+}
+
+.fa.fa-facebook-square {
+    background-color: ;
+    color: blue;
+    border-radius: 5px;
+}
+
+.fa.fa-twitter-square {
+    background-color: white;
+    color: aqua;
+}
+
+.fa.fa-google-plus {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa.fa-linkedin {
+    background-color: blue;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 5px
+}
+
+.fa.fa-sign-in {
+    color: black;
+}
+
+.social span {
+    color: black;
+}
+
+/* Header part end */
+/* Banner part start */
+
+.banner {
+    width: 100%;
+    float: left;
+    background: url(../img/49104.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0px;
+}
+
+.banner-main {
+    width: 500px;
+    padding: 50px;
+    float: left;
+    background-color: #0d0d0e8c;
+
+}
+
+.banner-main h1 {
+    color: white;
+    font-size: 30px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.banner-main p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.banner-main ul{
+    list-style: none;
+}
+.banner-main ul li{
+    display: inline-block;
+}
+.banner-main ul li a{
+    text-decoration: none;
+    color: white;
+}
+.btnn{
+    border: none;
+    margin: 30px 66px;
+    padding: 10px 20px;
+    background-color: aqua;
+}
+
+/* banner part end */
+
+.message{
+    position: fixed;
+    top: 80%;
+    right: 0px;
+    background-color: #65d8ff82;
+    padding: 2px;
+    border-radius: 5px;
+}
+.fa.fa-envelope{
+    color: yellow;
+    padding: 3px 5px;
+    
+    
+}
+
+
+
+/*Sectiion one start*/
+
+.service{
+    width: 100%;
+    float: left;
+}
+.service h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0px;
+}
+
+.service-one{
+    width: 23%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+}
+
+.fa.fa-wifi{
+    margin: 30px 80px;
+    font-size: 50px;
+}
+
+.service-two{
+    width: 23%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+}
+.fa.fa-usb{
+    margin: 30px 80px;
+    font-size: 50px; 
+}
+
+.service-three{
+    width: 23%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    
+}
+.fa.fa-laptop{
+    margin: 30px 80px;
+    font-size: 50px; 
+}
+
+.service-four{
+    width: 23%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+}
+.fa.fa-cogs{
+    margin: 30px 80px;
+    font-size: 50px;
+}
+
+.btn{
+    display: block;
+    margin: 30px 40px;
+    border: none;
+    background-color: gold;
+    padding: 10px 20px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* section one end */
+
+/*section two start */
+.blog-section{
+    width: 100%;
+    float: left;
+}
+
+.blog-section h1{
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0px;
+}
+.blog-section a{
+    text-decoration: none;
+}
+
+.blog-section ul{
+    list-style: none;
+    padding: 1% 42% 
+}
+
+.blog-section ul li{
+    display: block;
+    text-align: left;
+    line-height: 35px;
+    
+}
+
+.blog-section ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+/*section two end*/
+
+/* About */
+
+.about{
+    width: 100%;
+    float:left;
+    padding-bottom: 40px;
+
+}
+.about h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.service-i{
+    width: 25%;
+    padding: 10px 40px 10px 0px;
+    float: left;
+    text-align: justify;
+}
+
+.service-ii{
+    width: 25%;
+    padding: 10px 40px;
+    float: left;
+    text-align: justify;
+}
+
+.service-iii{
+    width: 25%;
+    padding: 10px 0px 10px 40px;
+    float: left;
+    text-align: justify;
+}
+
+
+
+/* Footer start */
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 20px 0px;
+    
+}
+
+.contact{
+    width: 50%;
+    float: left;
+    color: white;
+}
+.contact ul{
+    list-style: none;
+}
+
+.contact ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.contact ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+
+.copyright{
+    width: 50%;
+    float: left;
+    color: white;
+    
+}
+.copyright h2{
+    padding: 0px 0px 10px 0px;
+}
